@@ -38,3 +38,5 @@ function countPhotos(road) {
   }
   return result;
 }
+
+// or
