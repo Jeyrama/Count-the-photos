@@ -11,10 +11,11 @@ for the input string that represents a road as described,
 returns the total number of photos that were taken by the cameras. 
 The complexity should be strictly O(N) in order to pass all the tests. 
 
-For ">>." -> 2 photos were taken
-For ".>>" -> 0 photos were taken
-For ">.<." -> 3 photos were taken
-For ".><.>>.<<" -> 11 photos were taken
+Examples:
+  For ">>." -> 2 photos were taken
+  For ".>>" -> 0 photos were taken
+  For ">.<." -> 3 photos were taken
+  For ".><.>>.<<" -> 11 photos were taken
 */
 
 
