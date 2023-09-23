@@ -19,3 +19,22 @@ For ".><.>>.<<" -> 11 photos were taken
 
 
 // Solution
+
+function countPhotos(road) {
+  let result = 0,
+      cam_count = 0,
+      right_count = 0;
+  for (let i = 0; i < road.length; ++i) {
+    if (road[i] == '.') {
+      result += right_count;
+      cam_count += 1;
+    }
+    else if (road[i] == '<') {
+      result += cam_count;
+    }
+    else if (road[i] == '>') {
+      right_count += 1;
+    }
+  }
+  return result;
+}
