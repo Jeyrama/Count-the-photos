@@ -40,3 +40,16 @@ function countPhotos(road) {
 }
 
 // or
+
+function countPhotos(road) {
+  let cars = 0, cams = 0, count = 0;
+  for (let i = 0; i < road.length; i++) {
+    if(road[i] === ">") cars++;
+    if(road[i] === "<") count += cams;
+    if(road[i] === ".") {
+      count += cars;
+      cams++;
+    }
+  }
+  return count;
+}
