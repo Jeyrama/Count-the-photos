@@ -16,3 +16,6 @@ For ".>>" -> 0 photos were taken
 For ">.<." -> 3 photos were taken
 For ".><.>>.<<" -> 11 photos were taken
 */
+
+
+// Solution
